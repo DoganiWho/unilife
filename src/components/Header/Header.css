@@ -1,0 +1,37 @@
+.header-container{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:darkgray;
+    color: white;
+    padding: 0 20px;
+}
+
+.categories-container{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+
+}
+
+.nav-link, .auth-link{
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+}
+.auth-link{
+    background-color: var(--button-bg);
+    padding:8px 16px;
+    border-radius:8px;
+    border:none;
+    cursor:pointer;
+    color: white;
+  }
+
+  .username{
+    color:blue;
+    margin-right:10px;
+}
